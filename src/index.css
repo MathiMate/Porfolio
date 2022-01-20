@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Vampiro+One&family=Zen+Kurenaido&display=swap');
+
+
+:root {
+    /* --textColor: #434656;
+    --dominatColor: #007fff;
+    --complementaryColor: #d56000;
+    --accentColor: #00a2b5;
+    --background: linear-gradient(120deg, #007fff 0%, #00a2b5 100%);
+    --whiteBlur: rgba(255,255,255,0.5);
+    --white2: #F5F5F5;
+    --hoverBlue: #03e9f4;
+    --hoverGreen: #00ff00; */
+  --black: #000;
+  --dark: #131516;
+  --brightDark: #272c33;
+  --lightWhite: #d9dff1;
+  --darkWhite: #c6c6ca;
+  --darkGrey: #3b3b3b;
+  --lightGrey: #454a4d;
+  --brightGrey: rgb(30, 32, 33);
+  --scrollbar: #CFD8DC;
+  --scrollBarThumb: #90A4AE;
+}
+
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+body{
+  background-color: var(--darkGrey);
+  scroll-behavior: smooth;
+  font-family: 'Zen Kurenaido', sans-serif;
+}
+
+header{
+  background-color: #fff;
+  height: 120px;
+  overflow: hidden;
+}
+nav ul li a:hover {
+  transition: all 0.5s ease-in-out;
+  transform: translateY(-25px);
+}
+nav ul li a:hover figure{
+  transition: all 0.5s ease-in-out;
+  transform: translateY(20px);
+}
+nav ul li a {
+  transition: all 0s ease-in-out;
+}
+nav ul li a figure{
+  transition: all 0s ease-in-out;
+}
+nav ul li a p{
+  letter-spacing: 2px;
+  font-weight: 900;
+  color: var(--dark);
+}
